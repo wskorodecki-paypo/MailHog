@@ -13,8 +13,6 @@ require (
 	golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4
 )
 
-replace github.com/mailhog/MailHog-UI => github.com/wskorodecki-paypo/MailHog-UI v1.0.3
-
 require (
 	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
 	github.com/gopherjs/gopherjs v1.17.2 // indirect
@@ -24,7 +22,6 @@ require (
 	github.com/ian-kent/goose v0.0.0-20141221090059-c3541ea826ad // indirect
 	github.com/ian-kent/linkio v0.0.0-20170807205755-97566b872887 // indirect
 	github.com/jtolds/gls v4.2.1-0.20161228004933-bb0351aa7eb6+incompatible // indirect
-	github.com/mailhog/MailHog v1.0.1 // indirect
 	github.com/mailhog/data v1.0.2-rc1 // indirect
 	github.com/mailhog/smtp v1.0.2-rc1 // indirect
 	github.com/mailhog/storage v1.0.2-rc1 // indirect
@@ -39,5 +36,3 @@ require (
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
-
-replace github.com/mailhog/MailHog-UI => github.com/wskorodecki-paypo/MailHog-UI v1.0.3
